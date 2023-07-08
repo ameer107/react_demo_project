@@ -1,0 +1,43 @@
+@import '../colors.scss';
+
+.footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    .c-name{
+        width: 70%;
+        h1{
+            color: $dark;
+            font: 600 2rem $text1;
+        }
+        p{
+            color: $dark;
+            font: 500 15px $text1;
+        }
+    }
+    .follow-us{
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        h3{
+            color: $dark;
+            font: 600 15px $text1;
+            border-bottom: 2px solid $dark; 
+        }
+        .socials-links{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 10px;    
+
+            a{
+                padding-top: 5px;
+                font: 200 1rem $text1; 
+                color: $second;
+            }
+        }
+    }
+}
